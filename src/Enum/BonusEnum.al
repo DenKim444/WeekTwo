@@ -1,4 +1,4 @@
-enum 50100 "Bonus Status"
+enum 52122400 "Bonus Status"
 {
     Extensible = true;
     value(0; Open)
@@ -10,7 +10,7 @@ enum 50100 "Bonus Status"
         Caption = 'Closed';
     }
 }
-enum 50101 "Bonus Type"
+enum 52122401 "Bonus Type"
 {
     Extensible = true;
 

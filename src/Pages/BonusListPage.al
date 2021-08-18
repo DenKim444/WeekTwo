@@ -1,4 +1,4 @@
-page 50101 "Bonus List"
+page 52122403 "Bonus List"
 {
     PageType = List;
     ApplicationArea = All;

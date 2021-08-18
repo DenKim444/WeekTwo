@@ -1,4 +1,4 @@
-table 50102 "Bonus Setup"
+table 52122402 "Bonus Setup"
 {
     DataClassification = ToBeClassified;
 

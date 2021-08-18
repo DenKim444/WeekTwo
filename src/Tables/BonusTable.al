@@ -1,4 +1,4 @@
-table 50100 "Bonus Header"
+table 52122400 "Bonus Header"
 {
     DataClassification = CustomerContent;
     LookupPageId = "Bonus List";

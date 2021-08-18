@@ -1,4 +1,4 @@
-page 50100 "Bonus Card"
+page 52122400 "Bonus Card"
 {
     PageType = Document;
     ApplicationArea = All;

@@ -1,4 +1,4 @@
-table 50101 "Bonus Line"
+table 52122401 "Bonus Line"
 {
     DataClassification = CustomerContent;
 
