@@ -73,6 +73,16 @@ page 52122400 "Bonus Card"
 
                 end;
             }
+            action("Bonus Ledger  Entries")
+            {
+                ApplicationArea = All;
+                Promoted = true;
+                PromotedIsBig = true;
+                PromotedCategory = Process;
+                RunObject = page "Bonus Ledger Entry";
+                RunPageLink = "Bonus No." = field("No.");
+
+            }
         }
     }
 

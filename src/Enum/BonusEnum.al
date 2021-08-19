@@ -5,9 +5,9 @@ enum 52122400 "Bonus Status"
     {
         Caption = 'Open';
     }
-    value(1; Closed)
+    value(1; Released)
     {
-        Caption = 'Closed';
+        Caption = 'Released';
     }
 }
 enum 52122401 "Bonus Type"
