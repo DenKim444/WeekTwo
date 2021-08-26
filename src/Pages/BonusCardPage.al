@@ -40,7 +40,8 @@ page 52122400 "Bonus Card"
                 field("End Date"; Rec."End Date")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies End Date';
+                    //ToolTip = 'Specifies End Date';
+                    ToolTipML = 'Specifies End Date';
                 }
                 field(Status; Rec.Status)
                 {
@@ -81,7 +82,20 @@ page 52122400 "Bonus Card"
                 PromotedCategory = Process;
                 RunObject = page "Bonus Ledger Entry";
                 RunPageLink = "Bonus No." = field("No.");
-
+            }
+            action("Bonus Report")
+            {
+                ApplicationArea = All;
+                Promoted = true;
+                PromotedIsBig = true;
+                Image = Report;
+                trigger OnAction()
+                begin
+                    Rec.Reset();
+                    Rec.SetRange("No.", Rec."No.");
+                    Rec.SetRange("Customer No.", Rec."Customer No.");
+                    Report.Run(Report::"Bonus Card Report", true, true, Rec);
+                end;
             }
         }
     }
