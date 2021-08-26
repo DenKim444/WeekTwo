@@ -40,8 +40,9 @@ page 52122400 "Bonus Card"
                 field("End Date"; Rec."End Date")
                 {
                     ApplicationArea = All;
-                    //ToolTip = 'Specifies End Date';
-                    ToolTipML = 'Specifies End Date';
+                    ToolTip = 'Specifies End Date';
+                    //ToolTipML = 'Specifies End Date';
+                    ///CaptionML =
                 }
                 field(Status; Rec.Status)
                 {
