@@ -58,6 +58,14 @@ table 52122400 "Bonus Header"
         {
             TableRelation = "No. Series";
         }
+        field(10; "Bonus Amount"; Decimal)
+        {
+            //DataClassification = ToBeClassified;
+            Caption = 'Bonus Amount';
+            Editable = false;
+            FieldClass = FlowField;
+            CalcFormula = sum("Bonus Entry"."Bonus Amount" where("Bonus No." = field("No.")));
+        }
     }
 
     keys

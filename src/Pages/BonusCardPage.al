@@ -56,6 +56,15 @@ page 52122400 "Bonus Card"
                 SubPageLink = "Document No." = field("No.");
             }
         }
+        area(FactBoxes)
+        {
+            part(Statistics; "Bonus Statistics Details")
+            {
+                ApplicationArea = All;
+                SubPageLink = "No." = field("No.");
+                Caption = 'Statistics';
+            }
+        }
     }
 
     actions
@@ -100,6 +109,7 @@ page 52122400 "Bonus Card"
             }
         }
     }
+
 
     var
         myInt: Integer;
